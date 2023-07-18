@@ -13,7 +13,7 @@
   	<!-- Spring 설정 파일 제공 -->
   	<init-param>
   		<param-name>contextConfigLocation</param-name>
-  		<param-value>/WEB-INF/DispatcherServlet-servlet.xml</param-value>
+  		<param-value>classpath:spring/dispatcher/*.xml</param-value>
   	</init-param>
   	<!-- 웹 애플리케이션이 시작할 때 서블릿 객체 생성 -->
   	<load-on-startup>1</load-on-startup>
