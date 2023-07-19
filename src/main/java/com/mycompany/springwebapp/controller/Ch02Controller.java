@@ -100,7 +100,7 @@ public class Ch02Controller {
 	@GetMapping(value="/ajax3", produces="application/json; charset=UTF-8")
 	@ResponseBody	// 리턴 값을 응답 본문에 기입
 	public String ajax3Method() {
-		return new JSONObject().put("fileName", "photo4.jpg").toString();
+		return new JSONObject().put("fileName", "photo1.jpg").toString();
 	}
 	
 	@GetMapping(value="/ajax4", produces="application/json; charset=UTF-8")
