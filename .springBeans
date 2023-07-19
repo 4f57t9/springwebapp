@@ -7,10 +7,14 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
+<<<<<<< HEAD
 		<config>src/main/resources/spring/dispatcher/ch01-component-scan.xml</config>
 		<config>src/main/resources/spring/dispatcher/ch01-view-resolve.xml</config>
 		<config>src/main/resources/spring/root/ch01-component-scan.xml</config>
 		<config>src/main/resources/spring/dispatcher/ch01-static-resource.xml</config>
+=======
+		<config>src/main/webapp/WEB-INF/component-scan.xml</config>
+>>>>>>> refs/remotes/origin/master
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

@@ -1,5 +1,6 @@
 package com.mycompany.springwebapp.controller;
 
+<<<<<<< HEAD
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
@@ -34,5 +35,24 @@ public class HomeController{
 	@RequestMapping("/")	// http://localhost:8080/sptringwebapp/ 요청 시, HomeController.index() 실행 설정
 	public String index() {
 		return "home";
+=======
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@Controller
+public class HomeController {
+	public HomeController() {
+		log.info("실행");
+	}
+	
+	// http://localhost:8080/springwebapp/
+	@RequestMapping("/")
+	public String index() {
+		log.info("실행");
+		return "index";
+>>>>>>> refs/remotes/origin/master
 	}
 }
